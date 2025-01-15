@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    animation: fadeIn 2s;
+    
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    animation: fadeInDown 2s;
+}
+
+main {
+    padding: 2em;
+    animation: fadeIn 2s;
+}
+
+section {
+    margin-bottom: 2em;
+    animation: slideInUp 2s;
+}
+
+.example {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-top: 1em;
+    animation: zoomIn 2s;
+}
+
+footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 1em;
+
+    bottom: 0;
+
+    animation: fadeInUp 2s;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
