@@ -6,3 +6,6 @@ This repository is part of the Simplilearn Git Training Course. It includes mate
 - Branching and merging strategies
 - Collaborative workflows with GitHub
 - Code examples and best practices
+
+### Certification
+- https://lms.simplilearn.com/courses/2823/GIT/certificate/download-skillup
